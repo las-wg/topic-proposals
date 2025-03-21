@@ -46,7 +46,7 @@ We need the analogy of metadata files used in Helm charts and package managers f
 
 # Proposed Solution
 ## 1. Use JSON-LD (JavaScript Object Notation for Linked Data).
-[Eclipse LMOS protocol](https://eclipse.dev/lmos/docs/lmos_protocol/agent_description/) and Agent Network Protocol (https://agent-network-protocol.com/specs/agent-description.html) are already using JSON-LD for this format. 
+[Eclipse LMOS protocol](https://eclipse.dev/lmos/docs/lmos_protocol/agent_description/) and [Agent Network Protocol](https://agent-network-protocol.com/specs/agent-description.html) are already using JSON-LD for this format. 
 JSON-LD is a JSON-based format designed to serialize Linked Data, enabling data to be interlinked and semantically enriched. 
 
 Side note: [W3C DID](https://decentralized-id.com/) could be used to authenticate agents and could also be used to sign metadata and verify metadata
