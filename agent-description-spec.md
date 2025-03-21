@@ -45,8 +45,7 @@ We need the analogy of metadata files used in Helm charts and package managers f
 - Interoperability across diverse platforms and implementations.
 
 # Proposed Solution
-
-To establish a standardized a machine-readable format, we could leverage JSON-LD (JavaScript Object Notation for Linked Data).
+## 1. Use JSON-LD (JavaScript Object Notation for Linked Data).
 [Eclipse LMOS protocol](https://eclipse.dev/lmos/docs/lmos_protocol/agent_description/) and Agent Network Protocol (https://agent-network-protocol.com/specs/agent-description.html) are already using JSON-LD for this format. 
 JSON-LD is a JSON-based format designed to serialize Linked Data, enabling data to be interlinked and semantically enriched. 
 
@@ -88,4 +87,7 @@ Example which can use Links to point to further documents or include metadata di
    ....
 }
 ```
+
+## 2. Markdown + Yaml Frontmatter
+Huggingface is using markdown and yaml frontmatter for Model Cards: https://huggingface.co/docs/hub/model-cards
 
