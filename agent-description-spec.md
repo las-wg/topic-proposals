@@ -49,10 +49,11 @@ We need the analogy of metadata files used in Helm charts and package managers f
 [Eclipse LMOS protocol](https://eclipse.dev/lmos/docs/lmos_protocol/agent_description/) and [Agent Network Protocol](https://agent-network-protocol.com/specs/agent-description.html) are already using JSON-LD for this format. 
 JSON-LD is a JSON-based format designed to serialize Linked Data, enabling data to be interlinked and semantically enriched. 
 
-Side note: [W3C DID](https://decentralized-id.com/) could be used to authenticate agents and could also be used to sign metadata and verify metadata
-[W3C Web of Things](https://www.w3.org/TR/wot-thing-description11/) is calling this a Thing Description and has specifications for Discovery and also supported Security Schemes like Bearer, Oauth2, and many more.
+Side note: [W3C DID](https://decentralized-id.com/) could be used to authenticate agents and could also be used to sign metadata and verify metadata.
 
-Example which can use Links to point to further documents or include metadata directly into the document.
+[W3C Web of Things](https://www.w3.org/TR/wot-thing-description11/) is calling the following document a Thing Description and has specifications for Discovery and also supports Security Schemes like Bearer, Oauth2, and many more.
+
+Thw following is an example based on the WoR format with extensions. A thing description uses Links to point to further documents or can include metadata directly into the document.
 
 ```
 {
