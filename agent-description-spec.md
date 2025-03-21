@@ -18,7 +18,6 @@ We need the analogy of metadata files used in Helm charts and package managers f
 - Ensure extensibility to accommodate future enhancements.
 - Include core metadata attributes such as:
   - Unique agent identifier
-  - Supported protocols
   - Functional capabilities
   - Authentication and security attributes
   - Version information
