@@ -53,7 +53,7 @@ Side note: [W3C DID](https://decentralized-id.com/) could be used to authenticat
 
 [W3C Web of Things](https://www.w3.org/TR/wot-thing-description11/) is calling the following document a Thing Description and has specifications for Discovery and also supports Security Schemes like Bearer, Oauth2, and many more.
 
-Thw following is an example based on the WoR format with extensions. A thing description uses Links to point to further documents or can include metadata directly into the document.
+Thw following is an example based on the WoT format with extensions. A thing description uses Links to point to further documents or can include metadata directly into the document.
 
 ```
 {
