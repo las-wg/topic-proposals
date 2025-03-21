@@ -63,7 +63,20 @@ Example which can use Links to point to further documents or include metadata di
       }
    ],
    "id": "did:web:vendor.com:6f1d3a7a-1f97-4e6b-b45f-f3c2e1c84c77",
-   "title": "WeatherAgent",
+    "titles": {
+        "en": "MyThing",
+        "de": "MeinDing",
+        "ja": "私の物",
+        "zh-Hans": "我的东西", 
+        "zh-Hant": "我的東西"
+    },
+    "descriptions": {
+        "en": "Human readable information.",
+        "de": "Menschenlesbare Informationen.",
+        "ja": "人間が読むことができる情報",
+        "zh-Hans": "人们可阅读的信息", 
+        "zh-Hant": "人們可閱讀的資訊"
+    },
    "@type": "lmos:Agent",
    "links": [{
       "rel": "service-doc",
@@ -77,6 +90,10 @@ Example which can use Links to point to further documents or include metadata di
             "ad:url": "https://vendor.com"
         }
    }
+    "support": "mailto:support@example.com",
+    "version": {/*...*/},
+    "created": "2018-11-14T19:10:23.824Z",
+    "modified": "2019-06-01T09:12:43.124Z",
     "securityDefinitions": {
         "basic_sc": {
             "scheme": "basic",
