@@ -62,10 +62,14 @@ Example which can use Links to point to further documents or include metadata di
          "ad": "https:/las-wg/protocol/agent-description/v1",
       }
    ],
+   "@type": "ad:Agent",
    "id": "did:web:vendor.com:6f1d3a7a-1f97-4e6b-b45f-f3c2e1c84c77",
+   "version": "1.0.0",
+   "created": "2018-11-14T19:10:23.824Z",
+   "modified": "2019-06-01T09:12:43.124Z",
     "titles": {
-        "en": "MyThing",
-        "de": "MeinDing",
+        "en": "MyAgent",
+        "de": "MeinAgent",
         "ja": "私の物",
         "zh-Hans": "我的东西", 
         "zh-Hant": "我的東西"
@@ -77,7 +81,6 @@ Example which can use Links to point to further documents or include metadata di
         "zh-Hans": "人们可阅读的信息", 
         "zh-Hant": "人們可閱讀的資訊"
     },
-   "@type": "lmos:Agent",
    "links": [{
       "rel": "service-doc",
       "href": "https://vendor.com/capabilities.json",
@@ -91,9 +94,7 @@ Example which can use Links to point to further documents or include metadata di
         }
    }
     "support": "mailto:support@example.com",
-    "version": {/*...*/},
-    "created": "2018-11-14T19:10:23.824Z",
-    "modified": "2019-06-01T09:12:43.124Z",
+
     "securityDefinitions": {
         "basic_sc": {
             "scheme": "basic",
